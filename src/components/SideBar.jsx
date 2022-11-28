@@ -6,14 +6,14 @@ function SideBar({ data, setCountry, selectedCountry  }) {
 
   return (
     <div className="px-5">
-      <div className="flex items-center rounded-md border-[2px] border-cyan-300 px-2">
+      {/*<div className="flex items-center rounded-md border-[2px] border-cyan-300 px-2">
         <input
           className="px-2 w-[240px] h-[32px] text-sm font-poppins cursor-pointer focus:outline-none active:border-0"
           placeholder="Search"
           type="text"
         />
         <BiSearch className="cursor-pointer" />
-      </div>
+      </div>*/}
       <ul className="no-list ">
         {Object.keys(data).map((item, i) => (
           <li
