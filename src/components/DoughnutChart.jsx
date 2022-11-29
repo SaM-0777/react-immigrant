@@ -34,8 +34,8 @@ function DoughnutChart({ dataSet }) {
             datasets: [{
               label: '# population',
               data: data,
-              backgroundColor: ['red', 'green', 'blue', 'yellow'],
-              borderColor: ['red', 'green', 'blue', 'yellow'],
+              backgroundColor: ['#52D726', '#FFEC00', '#FF7300', '#FF0000', '#007ED6', '#7CDDDD', '#80198C', '#BA0072', '#DB2950', '#E55D2C', '#002E96', '#BFB800'],
+              borderColor: ['#52D726', '#FFEC00', '#FF7300', '#FF0000', '#007ED6', '#7CDDDD', '#80198C', '#BA0072', '#DB2950', '#E55D2C', '#002E96', '#BFB800'],
               borderWidth: 1,
             }]
           }} />
